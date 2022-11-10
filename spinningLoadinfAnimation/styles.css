@@ -7,11 +7,11 @@ body{
     margin: 0;
     padding: 0;
 }
-.loader-wrapper {
+.spinner-wrapper {
     width: 60px;
     height: 60px;
 }
-.loader {
+.spinner {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -21,7 +21,7 @@ body{
     border-radius: 50%;
     animation: rotate 5s linear infinite; 
 }
-.loader-inner{
+.spinner-inner{
     border-top-color: #000000;
     border-bottom-color: #fff;
     animation-duration: 2.5s;
