@@ -1,0 +1,135 @@
+html{
+    --color-grey-100: rgb(236,236,236);
+    --color-grey-400:rgb(134, 134, 134);
+    --color-grey-600: rgb(58, 58, 58);
+    --color-grey-900:rgb(41, 41, 41);
+
+    --color-primary-300:rgb(167, 226, 255) ;
+    --color-primary-700: rgb(0, 170, 255);
+
+    background-color: var(--color-grey-100);
+    font-family: 'Krub', sans-serif;
+    font-weight: 400;
+
+}
+.card-container{
+    width: 350px;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(201, 200, 200);
+    transition: transform 0.5s ease-out;
+
+}
+.card-container:hover{
+    transform: scale(1.05);
+}
+h1{
+    margin: 10px 0;
+    padding: 30px 50px 0 50px;
+    text-align: left;
+    color: var(--color--grey--600);
+    font-family: 'Zilla Slab',serif;
+    font-weight: 600;
+}
+.card-info{
+    color:var(--color-grey-400);
+    margin: 10px 0 30px 0;
+    padding: 0 50px;
+    text-align: left;
+
+}
+.price{
+    color: var(--color-grey-900);
+    background-color:var(--color-primary-300) ;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px auto 10px auto;
+}
+.price-info{
+    color:var(--color-grey-400);
+    text-align: center;
+    margin: 10px o 30px 0;
+    padding: 0 50px;
+}
+.sub-details{
+    width: 300px;
+    padding: 30px 50px;
+}
+.sub-features{
+    display: flex;
+    padding-left: 50px;
+}
+.icon{
+    display: flex;
+    width: 10px;
+}
+.sub-feature-text{
+    color:var(--color--grey--600);
+    padding: 2px;
+    margin: 5px;
+}
+.button-container{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.button{
+    color: var(--color-primary-700);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    margin: 0 0 30px 0;
+    border: 2px solid rgb(224, 224, 224);
+    font-size: 18px;
+    font-weight: 600;
+}
+.button:hover {
+    color: white;
+    background-color: var(--color-primary-700);
+    border: 2px solid rgb(255, 255, 255);
+}
+footer div {
+    text-align: right;
+  }
+  footer div a {
+    background-color: rgb(219, 108, 94);
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 1px 2px 5px rgb(109, 108, 108);
+  }
+/* body{
+    background-color: rgb(217, 231, 231);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+} */
+/* #card-holder{
+    width: 15rem;
+    height: 30rem;
+    background-color: white;
+    border: 5px;
+    border-color:black;
+    box-shadow: 2px 2px 2px rgb(131, 125, 125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+#price{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+#btn{
+    width: 75%;
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    color: aqua;
+    border-style: solid;
+} */
