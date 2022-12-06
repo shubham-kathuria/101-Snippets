@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Test",
+    "address": "Teststreet 10, Testcity",
+    "cuisine": "Mexican",
+    "website": "http://www.mytest.com",
+    "description": "It's awesome!",
+    "id": "r1"
+  },
+  {
+    "name": "Sagar Ratna",
+    "address": "Teststreet 10 , Testcity 2",
+    "cuisine": "Indian",
+    "website": "http://www.mygreattest.com",
+    "description": "Finger licking good",
+    "id": "r2"
+  },
+  {
+    "name": "Test3",
+    "address": "Teststreet 10 , Testcity 3",
+    "cuisine": "Italian",
+    "website": "http://www.myItaliantest.com",
+    "description": "It's so cheesy!",
+    "id": "r3"
+  },
+  {
+    "name": "Test4",
+    "address": "TestStreet 4, testcity 4",
+    "cuisine": "Korean",
+    "website": "http://www.mykoreantest.com",
+    "description": "yummy!",
+    "id": "65421953-e875-495a-90dd-cbf03506c93d"
+  },
+  {
+    "name": "Taco Bell",
+    "address": "test street 5, testcity 5",
+    "cuisine": "Mexican",
+    "website": "http://www.mytest.com",
+    "description": "Its chessy!",
+    "id": "f5038d17-3042-453b-bcc0-ce0b42001d84"
+  }
+]
