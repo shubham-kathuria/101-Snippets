@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/ContactForm/styles.css" />
+    <title>Forms Challenge</title>
+  </head>
+  <body>
+    <header><h1>Contact Us</h1></header>
+    <main>
+      <form action="/7form" method="GET">
+        <section>
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="username"> Your Name</label>
+              <input type="text" id="username" name="user-name" required />
+            </li>
+            <li>
+              <label for="useremail">Your E-Mail Address</label>
+              <input type="email" id="useremail" name="user-email" required />
+            </li>
+            <li>
+              <label for="userphone"> Your Phone Number</label>
+              <input
+                type="tel"
+                id="userphone"
+                name="user-phone"
+                required
+                minlength="5"
+              />
+            </li>
+            <li>
+              <label for="usermsg"> Your Message</label>
+              <textarea
+                name="user-text"
+                id="usermsg"
+                rows="7"
+                required
+                minlength="10"
+                maxlength="200"
+              ></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="channel"> How did you find us? </label>
+          <select name="channel" id="channel" required>
+            <option value="Web Search">Web Search</option>
+            <option value="Word of Mouth">Word of Mouth</option>
+            <option value="Other">Other</option>
+          </select>
+        </section>
+        <section>
+          <h2>How should we reply?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                id="via-call"
+                name="contact"
+                value="phone"
+                required
+              />
+              <label for="via-call">Call me</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                id="via-email"
+                name="contact"
+                value="email"
+                required
+              />
+              <label for="via-email">Send me an email</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                id="dont-reply"
+                name="contact"
+                value="none"
+                required
+              />
+              <label for="dont-reply">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+        <section class=" form-control-inline">
+          <input type="checkbox" id="terms" name="accept-terms" required />
+          <label for="terms">Accept Terms</label>
+        </section>
+        <section id="form-action">
+          <button id="clear" type="reset">Clear</button>
+          <button id="submit" type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
